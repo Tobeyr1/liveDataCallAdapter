@@ -13,10 +13,11 @@ allprojects {
 		}
 	}
 ```
+[![](https://jitpack.io/v/Tobeyr1/liveDataCallAdapter.svg)](https://jitpack.io/#Tobeyr1/liveDataCallAdapter)
 **Then add the dependency:**
 ```java
 dependencies {
-	       implementation 'com.github.Tobeyr1:DialogLoading:1.0.2'
+	       implementation 'com.github.Tobeyr1:liveDataCallAdapter:v1.0.0'
 	}
 ```
 # Basic Usage
