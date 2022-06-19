@@ -23,7 +23,7 @@ interface GitHubService {
             return Retrofit.Builder()
                 .baseUrl(BASE_URL)
                 .client(initOkHttp())
-                .addCallAdapterFactory(LiveDataCallAdapterFactory())
+                .addCallAdapterFactory(LiveDataCallAdapterFactory.create())
                 .addConverterFactory(GsonConverterFactory.create())
                 .build()
                 .create(GitHubService::class.java)
