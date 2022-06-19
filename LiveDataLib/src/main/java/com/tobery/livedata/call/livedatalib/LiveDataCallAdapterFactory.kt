@@ -17,11 +17,12 @@ import java.lang.reflect.Type
  * @UpdateRemark:   更新说明
  * @Version:        1.0
  */
-class LiveDataCallAdapterFactory: CallAdapter.Factory() {
+class LiveDataCallAdapterFactory : CallAdapter.Factory() {
 
     companion object{
-        fun create():LiveDataCallAdapterFactory{
-            return LiveDataCallAdapterFactory()
+        @kotlin.jvm.JvmStatic
+        fun create(): CallAdapter.Factory {
+            return LiveDataCallAdapterFactory() as CallAdapter.Factory
         }
     }
 
