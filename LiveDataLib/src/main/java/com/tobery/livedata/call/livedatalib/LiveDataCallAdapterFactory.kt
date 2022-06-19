@@ -6,17 +6,7 @@ import retrofit2.Retrofit
 import java.lang.reflect.ParameterizedType
 import java.lang.reflect.Type
 
-/**
- *  @Package:        com.tobey.pagger3study
- * @ClassName:      LiveDataCallAdapterFactory
- * @Author:         Tobey_r1
- * @CreateDate:     2022/6/19 13:24
- * @Description:     java类作用描述
- * @UpdateUser:        更新者
- * @UpdateDate:     2022/6/19 13:24
- * @UpdateRemark:   更新说明
- * @Version:        1.0
- */
+
 class LiveDataCallAdapterFactory : CallAdapter.Factory() {
 
     companion object{
