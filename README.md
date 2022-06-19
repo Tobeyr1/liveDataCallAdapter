@@ -16,7 +16,7 @@ allprojects {
 **Then add the dependency:**
 ```java
 dependencies {
-	       implementation 'com.github.Tobeyr1:liveDataCallAdapter:v1.0.0'
+	       implementation 'com.github.Tobeyr1:liveDataCallAdapter:2.0.0'
 	}
 ```
 # Basic Usage
@@ -25,7 +25,7 @@ dependencies {
  Retrofit.Builder()
                 .baseUrl(BASE_URL)
                 .client(initOkHttp())
-                .addCallAdapterFactory(LiveDataCallAdapterFactory()) //add this line to you httpService
+                .addCallAdapterFactory(LiveDataCallAdapterFactory.create()) //add this line to you httpService
                 .addConverterFactory(GsonConverterFactory.create())
                 .build()
                 .create(GitHubService::class.java)
