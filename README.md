@@ -1,4 +1,4 @@
-# liveDataCallAdapter
+# liveDataCallAdapter [![](https://jitpack.io/v/Tobeyr1/liveDataCallAdapter.svg)](https://jitpack.io/#Tobeyr1/liveDataCallAdapter)
 ---------------------------
 **liveDataCallAdapter is use for java retrofit +LiveData**
 
@@ -13,7 +13,6 @@ allprojects {
 		}
 	}
 ```
-[![](https://jitpack.io/v/Tobeyr1/liveDataCallAdapter.svg)](https://jitpack.io/#Tobeyr1/liveDataCallAdapter)
 **Then add the dependency:**
 ```java
 dependencies {
