@@ -25,7 +25,7 @@ dependencies {
  Retrofit.Builder()
                 .baseUrl(BASE_URL)
                 .client(initOkHttp())
-                .addCallAdapterFactory(LiveDataCallAdapterFactory())
+                .addCallAdapterFactory(LiveDataCallAdapterFactory()) //add this line to you httpService
                 .addConverterFactory(GsonConverterFactory.create())
                 .build()
                 .create(GitHubService::class.java)
