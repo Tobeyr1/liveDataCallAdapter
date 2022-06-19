@@ -18,6 +18,13 @@ import java.lang.reflect.Type
  * @Version:        1.0
  */
 class LiveDataCallAdapterFactory: CallAdapter.Factory() {
+
+    companion object{
+        fun create():LiveDataCallAdapterFactory{
+            return LiveDataCallAdapterFactory()
+        }
+    }
+
     override fun get(
         returnType: Type,
         annotations: Array<Annotation>,
