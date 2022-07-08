@@ -16,7 +16,7 @@ allprojects {
 **Then add the dependency:**
 ```java
 dependencies {
-	       implementation 'com.github.Tobeyr1:liveDataCallAdapter:2.0.0'
+	       implementation 'com.github.Tobeyr1:liveDataCallAdapter:1.0.2'
 	}
 ```
 # Basic Usage
