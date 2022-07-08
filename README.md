@@ -36,3 +36,4 @@ dependencies {
     @GET("banner")
     fun getBanner(@Query("type")type:Int): LiveData<ApiResponse<xxx>>
 ```
+详细使用也可以参考博文liveDataCallAdapter库 用来实现Retrofit+LiveData具有生命周期的网络请求](https://blog.csdn.net/Tobey_r1/article/details/125674337?spm=1001.2014.3001.5501)
